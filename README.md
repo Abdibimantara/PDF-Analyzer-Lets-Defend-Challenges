@@ -20,5 +20,4 @@ Karyawan telah melaporkan kejadian ini kepada tim SOC sebagai tim analisis keman
 ### Noted : Tolong berhati-hati dalam membuka file tersebut dikarenakan file tersebut benar termasuk berbahaya. 
 
 # Analisis
-Proses analisis dimulai dengan saya mencoba mendownload file tersebut terlebih dahulu, dan saya langsung membukanya pada environtment linux di virtualbox dengan host only untuk meminimalisir hal yang tidak diinginkan. 
-
+Proses analisis dimulai dengan saya mencoba mendownload file tersebut terlebih dahulu, dan saya langsung membukanya pada environtment linux di virtualbox dengan host only untuk meminimalisir hal yang tidak diinginkan.  File tersebut kemduian saya ektrak dengan menggunakan command <a href="#"><code>unzip</code></a>
