@@ -40,4 +40,10 @@ Terlihat pada gambar dibawah, hasil object yang telah berhasil di deobfuscate se
 
 diketahui attacker menggunakan external web domain <code>filebin.net</code> dalam melancarkan aksinya. Terlihat juga attacker menggunakan metode <code>POST</code> dalam menjalankan req url tersebut.
 
-Setelah berhasil menganalisis object 19 sebalumnya, kami kembali fokus pada object lain yang masuk dalam kategori </>Objects with JS code</code> yaitu object 26. Dimana pada object 26 ini kami menemukan nilai variabel $base64, sehingga kami daapt langsung menjalankannya untuk mendapatkan commnad perintah asli yang dikeluarkannya. Disini kami menggunakan tools <a href="https://tio.run/#powershell">tio.run<></a>.
+Setelah berhasil menganalisis object 19 sebalumnya, kami kembali fokus pada object lain yang masuk dalam kategori </>Objects with JS code</code> yaitu object 26. Dimana pada object 26 ini kami menemukan nilai variabel $base64, sehingga kami daapt langsung menjalankannya untuk mendapatkan command perintah asli yang dikeluarkannya. Disini kami menggunakan tools <a href="https://tio.run/#powershell">tio.run<></a>.
+  
+![image](https://user-images.githubusercontent.com/43168046/210505530-f5b99ee5-87c3-4038-92b6-56f44e699e8d.png)
+
+![image](https://user-images.githubusercontent.com/43168046/210505586-1ca061c7-fdca-49bd-a075-20babd70b332.png)
+
+berdasarkan hasil ouput yang didapet dari proses debug melalui tools tersebut kami mendapakan bahwa attacker menggunakann tools WMIC untuk menjalankan mekanisme persistensi. singkatan dari Windows Management Interface Command, adalah alat prompt perintah sederhana yang mengembalikan informasi tentang sistem tempat Anda menjalankannya.  Berdasarkan hasil yang kami dapatkat proses persisntensi yang coba dilaukan berlangsung selama 9000 detik atau sekita 2,5 jam . 
