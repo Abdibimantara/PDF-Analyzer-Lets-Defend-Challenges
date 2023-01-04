@@ -34,4 +34,11 @@ Setelah mengetahui informasi tersebut, kami berusaha mencari informasi lebih det
 
 ![image](https://user-images.githubusercontent.com/43168046/210493323-eabb88f0-91f9-486a-87c2-acc6b822a6e2.png)
 
+Terlihat pada gambar dibawah, hasil object yang telah berhasil di deobfuscate sehingga object tersebut lebih mudah untuk dianalisis.
+
+![image](https://user-images.githubusercontent.com/43168046/210496308-2b591877-ac73-494d-9444-af4ab0158275.png)
+
+diketahui attacker menggunakan external web domain <code>filebin.net</code> dalam melancarkan aksinya. Terlihat juga attacker menggunakan metode <code>POST</code> dalam menjalankan req url tersebut.
+
+
 
