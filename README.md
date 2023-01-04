@@ -28,3 +28,5 @@ Berdasarkan hasi dari pengecekkan diatas, kami menemukan malicious object pada o
 
 ![image](https://user-images.githubusercontent.com/43168046/210490648-f10ab7d8-7ae2-4367-a0d2-6c3d0d8eeb96.png)
 
+Melalui hasi encoding object 19, kami mengetahui bahwa attacker mencoba menargetkan serangan pada local directori yaitu  C:\documents\ dengan membuat malware berkestensi zip dan memiliki nama d0csz1p. 
+
