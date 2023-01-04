@@ -28,5 +28,10 @@ Berdasarkan hasi dari pengecekkan diatas, kami menemukan malicious object pada o
 
 ![image](https://user-images.githubusercontent.com/43168046/210490648-f10ab7d8-7ae2-4367-a0d2-6c3d0d8eeb96.png)
 
-Melalui hasi encoding object 19, kami mengetahui bahwa attacker mencoba menargetkan serangan pada local directori yaitu  C:\documents\ dengan membuat malware berkestensi zip dan memiliki nama d0csz1p. 
+Melalui hasi encoding object 19, kami mengetahui bahwa attacker mencoba menargetkan serangan pada local directori yaitu  <code>C:\documents\</code> dengan membuat malware berkestensi <code>zip</code> dan memiliki nama <code>d0csz1p</code>. 
+
+Setelah mengetahui informasi tersebut, kami berusaha mencari informasi lebih detail mengenai file pdf tersebut. Berdasarkan objec 33, kami mengetahui bahwa object tersebut telah melewati proses obfuscate by Javasript. Sehingga untuk membaca object tersebut perlu proses deobfuscate, pada proses ini kami menggunakan batuan tools <a href="https://beautifier.io/"><code>beautifier.io.</code></a>.
+
+![image](https://user-images.githubusercontent.com/43168046/210493323-eabb88f0-91f9-486a-87c2-acc6b822a6e2.png)
+
 
