@@ -40,5 +40,4 @@ Terlihat pada gambar dibawah, hasil object yang telah berhasil di deobfuscate se
 
 diketahui attacker menggunakan external web domain <code>filebin.net</code> dalam melancarkan aksinya. Terlihat juga attacker menggunakan metode <code>POST</code> dalam menjalankan req url tersebut.
 
-
-
+Setelah berhasil menganalisis object 19 sebalumnya, kami kembali fokus pada object lain yang masuk dalam kategori </>Objects with JS code</code> yaitu object 26. Dimana pada object 26 ini kami menemukan nilai variabel $base64, sehingga kami daapt langsung menjalankannya untuk mendapatkan commnad perintah asli yang dikeluarkannya. Disini kami menggunakan tools <a href="https://tio.run/#powershell">tio.run<></a>.
